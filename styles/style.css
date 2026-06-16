@@ -249,6 +249,7 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   height: 296px;
   overflow-y: auto;
   gap: 30px;
