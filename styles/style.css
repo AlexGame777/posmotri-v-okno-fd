@@ -297,13 +297,15 @@ ol {
     text-decoration: underline;
     text-decoration-color: #FFF;
     text-decoration-thickness: 1px;
-    text-underline-offset: 6px;
+    text-underline-offset: 2px;
+    text-decoration-skip-ink: none;
   }
   .content__video-card-description {
     text-decoration: underline;
     text-decoration-color: #FFF;
     text-decoration-thickness: 1px;
-    text-underline-offset: 6px;
+    text-underline-offset: 2px;
+    text-decoration-skip-ink: none;
   }
 }
 
@@ -324,8 +326,9 @@ ol {
   font-weight: 700;
   font-style: Bold;
   font-size: 30px;
-  line-height: 1.4em;
   letter-spacing: 0%;
+  line-height: 1em;
+  margin-bottom: 1px;
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
@@ -338,8 +341,8 @@ ol {
   font-weight: 400;
   font-style: Regular;
   font-size: 18px;
-  line-height: 1.4em;
   letter-spacing: 0%;
+  line-height: 1em;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -355,7 +358,7 @@ ol {
 }
 
 .more-button {
-  width: 99.5%;
+  width: 390px;
   margin-top: 30px;
   margin-bottom: 5px;
 }
